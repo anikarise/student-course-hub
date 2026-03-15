@@ -1,4 +1,5 @@
 <?php
+// Database connection for Student Course Hub
 $host = "localhost";
 $user = "root";
 $password = "";
