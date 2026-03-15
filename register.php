@@ -1,4 +1,5 @@
 <?php
+// Student interest registration form
 include "db.php";
 
 if (!isset($_GET['programme_id'])) {
