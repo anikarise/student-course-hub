@@ -1,4 +1,5 @@
 <?php
+// Processes and stores student interest in the database
 include "db.php";
 
 $programme_id = $_POST['programme_id'];
