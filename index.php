@@ -1,4 +1,5 @@
 <?php
+// Displays available programmes from the database
 include "db.php";
 
 $sql = "SELECT * FROM Programmes";
