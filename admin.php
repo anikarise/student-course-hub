@@ -1,4 +1,5 @@
 <?php
+// Admin interface to view mailing list of interested students
 include "db.php";
 
 $sql = "SELECT InterestedStudents.StudentName,
