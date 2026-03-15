@@ -7,6 +7,8 @@ $name = trim($_POST['student_name']);
 $email = trim($_POST['email']);
 
 $message = "";
+// Prevent duplicate registrations and validate user input
+if (empty($name) || empty($email)) 
 $message_class = "message-box";
 
 if (empty($name) || empty($email)) {
